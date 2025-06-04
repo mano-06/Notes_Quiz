@@ -164,7 +164,6 @@ const App = () => {
         checkQuizExists(note.id);
       }
     });
-    // eslint-disable-next-line
   }, [filteredNotes]);
 
   return (
